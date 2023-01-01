@@ -1,0 +1,67 @@
+
+.imagen{
+  width: 100px;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+}
+
+h1{
+  color: #fff8e1;
+}
+
+body{
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #9fa8da;
+}
+
+label{
+  font-size: 15px;
+}
+#salida, #ingreso{
+  width: 80%;
+  height: 300px;
+}
+
+#salida{
+  color:brown;
+}
+
+textarea{
+  font-weight: bold;
+  border-radius: 10px;
+}
+button{
+  font-size: 18px;
+  margin: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.one{
+  background-color: #0d47a1;
+  border: 2px solid none;
+}
+
+.two{
+  background-color: grey;
+  border: 2px solid none;
+}
+.tres{
+  background-color:#90a4ae ;
+  border: 2px solid none;
+  visibility: hidden;
+}
+
+footer{
+  background-color: #212121;
+  border-radius: 10px;
+  margin:3px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+small{
+  color:white;
+}
