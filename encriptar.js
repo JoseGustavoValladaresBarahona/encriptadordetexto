@@ -7,7 +7,7 @@ function encriptar(){
     if(texto.match(letras) != null){
        alert("Solo letras minúsculas, sin acentos ni caracteres especiales");
     }else{
-    var textoCifrado = texto.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat");
+    var textoCifrado = texto.replace(/e/gm, "enter").replace(/i/gm, "imes").replace(/a/gm, "ai").replace(/o/gm, "ober").replace(/u/gm, "ufat");
     document.getElementById("salida").innerHTML = textoCifrado;
       if(textoCifrado != ""){
      document.getElementById("tres").style.visibility = "visible";
@@ -21,7 +21,7 @@ function encriptar(){
   if(texto === ""){
     alert("Debe copiar el texto para desencriptar");
   }else{
-   var textoNoCifrado = texto.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u");
+   var textoNoCifrado = texto.replace(/enter/gm, "e").replace(/imes/gm, "i").replace(/ai/gm, "a").replace(/ober/gm, "o").replace(/ufat/gm, "u");
    document.getElementById("salida").innerHTML = textoNoCifrado;
   }
   }
