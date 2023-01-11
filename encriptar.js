@@ -1,5 +1,5 @@
 function encriptar(){
-    const letras = /[^a-z,. ; : ! (),0-9\s]/gm;
+    const letras = /[^a-z,. ; : ! (), \s]/gm;
     var texto = document.getElementById("ingreso").value;
     if(texto === ""){
       alert("Debe ingresar un texto en minúscula");
