@@ -11,6 +11,8 @@ function encriptar(){
     document.getElementById("salida").innerHTML = textoCifrado;
       if(textoCifrado != ""){
      document.getElementById("tres").style.visibility = "visible";
+     document.getElementById("des").disabled = false;
+     document.getElementById("des").style.color = "blue";
       }
       document.getElementById("ingreso").value = "";
     }

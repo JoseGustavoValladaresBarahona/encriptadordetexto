@@ -40,16 +40,16 @@ button{
 }
 
 .one{
-  background-color: #0d47a1;
+  color: green;
   border: 2px solid none;
 }
 
 .two{
-  background-color: grey;
+  color:grey;
   border: 2px solid none;
 }
 .tres{
-  background-color:#90a4ae ;
+  color:blue ;
   border: 2px solid none;
   visibility: hidden;
 }
